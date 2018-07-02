@@ -1,0 +1,24 @@
+{
+  "name": "blox-simple",
+  "description": "A simple starting point for EOS dApps ",
+  "main": "index.html",
+  "version": "1.0.0",
+  "author": "@bkawk",
+  "license": "MIT",
+  "repository": "https://github.com/eosblox/blox-simple",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0",
+    "polymer-cli": "^1.7.1"
+  },
+  "scripts": {
+    "build": "polymer build && npm run push",
+    "push": "git add build/es6-bundled -f && git commit -m 'deploying to branch' && git subtree push --prefix build/es6-bundled origin gh-pages"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
