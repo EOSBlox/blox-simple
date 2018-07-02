@@ -1,0 +1,7 @@
+{
+  "name": "blox-simple",
+  "short_name": "blox-simple",
+  "description": "A simple starting point for EOS dApps ",
+  "start_url": "/",
+  "display": "standalone"
+}
