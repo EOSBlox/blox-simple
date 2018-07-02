@@ -16,10 +16,10 @@
     "polymer-cli": "^1.7.1"
   },
   "scripts": {
-    "git": "git add . && git commit -m 'add: eos-blox' && git push",
+    "git": "",
     "view": "polymer serve",
     "build": "polymer build && npm run push",
-    "push": "git add build/es6-bundled -f && git commit -m 'deploying to branch' && git subtree push --prefix build/es6-bundled origin gh-pages"
+    "push": "git add . && git commit -m 'add: eos-blox' && git push && git add build/es6-bundled -f && git commit -m 'deploying to branch' && git subtree push --prefix build/es6-bundled origin gh-pages"
   },
   "engines": {
     "node": ">=8.0"
