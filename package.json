@@ -18,7 +18,8 @@
   "scripts": {
     "view": "polymer serve",
     "build": "polymer build && npm run push",
-    "push": "git add . && git commit -m 'add: eos-blox' && git push && git add build/es6-bundled -f && git commit -m 'deploying to branch' && git subtree push --prefix build/es6-bundled origin gh-pages"
+    "push":"git add . && git commit -m 'add: eos-blox' && git push",
+    "pages": "git add build/es6-bundled -f && git commit -m 'deploying to branch 2' && git subtree push --prefix build/es6-bundled origin gh-pages"
   },
   "engines": {
     "node": ">=8.0"
