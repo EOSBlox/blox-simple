@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","0151f15f92fea1350604ebbd956c4471"],["manifest.json","adeb5a4cd20f6e8c1d338cd08f2d2cca"],["src/blox-app.js","ed15761165123461cd61153c58280037"]];
+var precacheConfig = [["index.html","308c11ad195f8356981b165300df5ccf"],["manifest.json","adeb5a4cd20f6e8c1d338cd08f2d2cca"],["src/blox-app.js","ed15761165123461cd61153c58280037"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
